@@ -1,0 +1,33 @@
+h1 {
+    color:cyan;
+    margin-left: 111px;
+}
+* {
+    background-color: #2e0e79;
+border:crimson;
+}
+body {
+    color: rgb(235, 235, 110);
+    font-style: italic;
+    font-size: medium;
+}
+.images{
+    display:flex;
+    flex:wrap;
+    justify-content:space-evenly;
+}
+.thing {
+    position:relative;
+}
+.thing p{
+    position: absolute;
+    top:50%;left:50%;
+     transform:translate(-60%,-60%);
+     opacity: 0;
+}
+.thing:hover p{
+    opacity: 1;
+}
+.thing:hover img{
+    opacity: 0.5;
+}
